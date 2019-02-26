@@ -1,0 +1,6 @@
+com\shoppingexpress\online\core\RandomStringTransformer.class
+com\shoppingexpress\online\core\PropertyEditor.class
+com\shoppingexpress\online\selenium\TestBase.class
+com\shoppingexpress\online\core\PropertyFileReader.class
+com\shoppingexpress\online\util\Utilities.class
+com\shoppingexpress\online\common\Constants.class
