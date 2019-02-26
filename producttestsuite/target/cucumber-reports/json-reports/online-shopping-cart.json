@@ -1,0 +1,256 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21933556035,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigate to the online shopping home page",
+            "match": {
+              "location": "HomeStepDef.userSuccessfullynavigateToHome()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "create an order by an existing user",
+        "description": "",
+        "id": "order-creation-by-a-new-user-and-exsiting-user;create-an-order-by-an-existing-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1524241823,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDef.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12285812594,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on sign in button on the home page",
+            "match": {
+              "location": "HomeStepDef.clickOnSignInBtn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1776467025,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user \"abc2019fthj@gmail.com\" log into shopping cart with password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc2019fthj@gmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "abc123",
+                  "offset": 67
+                }
+              ],
+              "location": "AuthenticationStepDef.enterUnamePasswod(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5693434360,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on sign in butn on the authentication page",
+            "match": {
+              "location": "AuthenticationStepDef.clickOnSignInOnAuthPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1734991222,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter the item name \"Dress\" in to the search text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dress",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeStepDef.enterInputSearchText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3051764440,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on search button on home page",
+            "match": {
+              "location": "HomeStepDef.navigateToSearchGrid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2035301170,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "add selected item \"1\" to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "SelectItemStepDef.enterInputSearchText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17092999196,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on proceed button to navigate to the view shopping cart summary",
+            "match": {
+              "location": "OrderConformationPopUpStepDef.proceedOrderToCheckOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32818214592,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on proceed button to navigate to the adress summary details",
+            "match": {
+              "location": "ShoppingCartSummaryStepDef.clickOnTonavigateToAdressSummaryPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79506125783,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on proceed button on the address summary view",
+            "match": {
+              "location": "AddressStepDef.clickOnProceedToShippingInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15751330769,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "accept the terms and condition on shipping",
+            "match": {
+              "location": "ShippingStepDef.acceptTermConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36536488697,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on proceed button on the shipping summary view",
+            "match": {
+              "location": "ShippingStepDef.clickOnProceedBtnToNavigateToPayment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28217912110,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "select on Pay by bank wire option",
+            "match": {
+              "location": "PaymentOptionStepDef.selectPaymentByBannk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47520561703,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click on order confirmation button on the payment confirmation view",
+            "match": {
+              "location": "PaymentConfirmationStepDef.sumbitOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39799452632,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "system should display \"Your order on My Store is complete.\" the confirmation message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your order on My Store is complete.",
+                  "offset": 23
+                }
+              ],
+              "location": "OrderConfirmationStepDef.verifyOrderConfirmationMsg(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Order creation by a new user and exsiting user",
+    "description": "",
+    "id": "order-creation-by-a-new-user-and-exsiting-user",
+    "keyword": "Feature",
+    "uri": "create-order.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@E2ERegression"
+      }
+    ]
+  }
+]
